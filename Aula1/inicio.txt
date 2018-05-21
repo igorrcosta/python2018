@@ -1,0 +1,14 @@
+Responda o questionário!
+https://pt.surveymonkey.com/r/62M8HV3
+
+Baixando o IDE:
+Para Windows ou macOS:
+    http://thonny.org/
+Para Linux:
+    (no terminal)
+    sudo apt install idle3
+Todo o código está disponível na página:
+    https://github.com/igorrcosta/python2018
+
+wifi: LADETEC_CONVIDADOS
+senha: ufrj#lbcd@iq
