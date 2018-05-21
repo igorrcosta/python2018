@@ -1,0 +1,17 @@
+Aula 1:
+
+1 - Escreva um programa que receba uma palavra e:
+a) Imprima a primeira e a última letra.
+b) Imprima a terceira letra.
+c) Imprima a palavra invertida (de trás para frente).
+d) Imprima a frase "Essa palavra começa com A" caso a palavra comece com A ou a (maiúsculo ou minúsculo)
+
+2 - Escreva um programa que recebe dois números (a e b) e:
+Se os dois números forem iguais, imprima o número.
+Senão, imprima o maior dividido pelo menor.
+
+3 - Escreva um programa que recebe um número e:
+Caso ele seja múltiplo de 3 e múltiplo de 5, imprima True.
+Senão, imprima False.
+
+==================================
