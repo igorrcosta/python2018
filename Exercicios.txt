@@ -15,3 +15,45 @@ Caso ele seja múltiplo de 3 e múltiplo de 5, imprima True.
 Senão, imprima False.
 
 ==================================
+Aula 2:
+
+4 - Escreva uma função que receba uma string e retorne a string com o caractere ‘#’ no inı́cio e no final.
+Por exemplo, se a entrada for ‘abcd’, a saı́da deve ser ‘#abcd#’.
+
+5 - Escreva uma função que receba uma string e um número 
+e retorne uma string igual a s, exceto pelo caracter da posição i, 
+que deve ser substituı́do pelo caracter x. Ex:
+>>> troca_letra(‘bola’,1)
+‘bxla’
+>>> troca_letra(‘programando’,5)
+‘progrxmando’
+
+6 - Escreva uma função que receba uma string e um caracter
+e retorne quantas vezes aquele caracter aparece na string.
+Ex:
+>>> conta_caracter('arara', 'a')
+3
+>>> conta_caracter('python', 'i')
+0
+
+7 - Para esse exercício, vamos usar a função str.split (que já vem no python!):
+ 
+str.split(s,sep) - Recorta a string s em todas as ocorrencias de sep
+e retorna a lista com os pedaços. Se sep não for especificado, recorta a string
+nos espaços.
+Exemplo:
+>>> palavra = ’AB BC CD’
+>>> str.split(palavra)
+[’AB’, ’BC’, ’CD’]
+>>> palavra2 = ’AXBXCXD’
+>>> str.split(palavra2,’X’)
+[’A’, ’B’, ’C’, ’D’]
+
+Usando essa função, faça um programa que recebe uma frase e retorna o numero de palavras.
+Exemplo:
+
+>>> conta_palavras('Vamos contar quantas palavras tem nessa frase')
+7
+>>> conta_palavras('Como vai?')
+2
+
