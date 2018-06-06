@@ -1,4 +1,5 @@
-def zippado(*listas:)
+def zippado(*listas):
+    '''Essa função reimplementa a funcao zip do python de forma tosca'''
     while True:
         if [] in listas:
             break
