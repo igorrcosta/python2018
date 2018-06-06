@@ -5,6 +5,7 @@
 a media, mediana e o numero de linhas em um arquivo txt'''
 
 from tkinter import filedialog, Tk
+from faz_grafico import faz_grafico
 
 def pede_arquivo():
     '''retorna o caminho para um arquivo definido pelo usuario'''
@@ -58,5 +59,6 @@ def main():
     lista_numeros = converte_lista_numeros(lista_linhas)
     media, mediana, tamanho = analise_dados(lista_numeros)
     salva_resultado(media, mediana, tamanho)
+    faz_grafico(lista_numeros)
     
 main()

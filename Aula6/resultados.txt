@@ -1,1 +1,3 @@
-a media é: 412.72333327999934, a mediana é: 378.660755 e o tamanho é: 1000.
+a media é: 412.72333327999934
+ a mediana é: 378.660755
+ e o tamanho é: 1000.
